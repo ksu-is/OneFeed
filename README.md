@@ -15,11 +15,16 @@ This application would be a social media aggregator. Its main purpose would be t
 
 $ pip install stream-python
 - Initialize the client with your api key and secret
+
 import stream
 client = stream.connect('YOUR_API_KEY', 'API_KEY_SECRET')
+
 - For the feed group 'user' and user id 'eric' get the feed
+
 eric_feed = client.feed('user', 'eric')
+
 - Add the activity to the feed
+
 eric_feed.add_activity({'actor': 'eric', 'verb': 'tweet', 'object': 1, 'tweet': 'Hello world'})
 
 # Contributing
