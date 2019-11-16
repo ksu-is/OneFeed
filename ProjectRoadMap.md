@@ -9,7 +9,7 @@
 7. - [x] DONE In the ProjectRoadMap file create a task list that lays out the blueprint to finish the project **Maverick**
 8. - [x] DONE Further research code to build OneFeed around **Maverick**
 9. - [ ] Research the API's that will be needed from various social media platforms ex. Twitter, Instagram, Facebook, etc
-10. - [ ] Create a file titled "OneFeedCode" in the OneFeed repository
+10. - [ ] Create a file titled "OneFeedWeb" in the OneFeed repository
 11. - [ ] Begin working on the code in "OneFeedCode" file
 12. - [ ] Finalize code
 13. - [ ] Test code and look for bugs
