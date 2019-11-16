@@ -1,7 +1,10 @@
 # Project Task List
 
 1. - [x] DONE Submit initial project concept for approval **Maverick**
-2. - [x] DONE Make sure to have all proper software downloaded ex. github, VS Code, Python, etc **Maverick**
+2. - [x] DONE Make sure to have all proper software downloaded **Maverick**
+- github desktop
+- VS Code
+- Python
 3. - [x] DONE Create a repository in the KSU-IS group called "OneFeed" **Maverick**
 4. - [x] DONE Create a new file in the OneFeed repository titled "README.md" **Maverick**
 5. - [x] DONE In the ReadME file list all the requirements, suggested material, and description of the end goal program **Maverick**
