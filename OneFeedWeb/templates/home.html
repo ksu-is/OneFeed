@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="home">
+    <h1>Welcome to OneFeed</h1>
+    <p>(In version 1.0.1 media feed will be below))</p>
+    <!-- <p><form action='{{ url_for('greet') }}' method='post'>
+        Please type your name: <input type='text' name='myName'><br>
+        <input type='submit' value='Submit'>
+        </form> -->
+    </p>
+</div>
+
+
+<script>
+
+        window.fbAsyncInit = function() {
+      
+          FB.init({
+      
+            appId      : '825386254556018',
+      
+            cookie     : true,
+      
+            xfbml      : true,
+      
+            version    : 'v5.0'
+      
+          });
+      
+           
+      
+          FB.AppEvents.logPageView();  
+      
+            
+      
+        };
+      
+       
+      
+        (function(d, s, id){
+      
+           var js, fjs = d.getElementsByTagName(s)[0];
+      
+           if (d.getElementById(id)) {return;}
+      
+           js = d.createElement(s); js.id = id;
+      
+           js.src = "https://connect.facebook.net/en_US/sdk.js";
+      
+           fjs.parentNode.insertBefore(js, fjs);
+      
+         }(document, 'script', 'facebook-jssdk'));
+      
+      </script>
+{% endblock %}
